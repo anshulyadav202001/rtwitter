@@ -1,1 +1,1 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="Footer.ascx.cs" Inherits="Controls_Footer" %>
+﻿<%@ control language="C#" autoeventwireup="true" inherits="Controls_Footer, App_Web_d3ryrz8p" %>

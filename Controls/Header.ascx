@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="Header.ascx.cs" Inherits="Controls_Header" %>
+﻿<%@ control language="C#" autoeventwireup="true" inherits="Controls_Header, App_Web_d3ryrz8p" %>
 <asp:ScriptManager ID="ScriptManager1" runat="server" />
 <table width="100%" cellpadding="0" cellspacing="0" style="background-color: #2C3539;">
     <tr>

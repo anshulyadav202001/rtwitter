@@ -1,5 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="SuggestedUsersToFollow.ascx.cs"
-    Inherits="Controls_SuggestedUsersToFollow" %>
+﻿<%@ control language="C#" autoeventwireup="true" inherits="Controls_SuggestedUsersToFollow, App_Web_d3ryrz8p" %>
 <table cellpadding="1" cellspacing="1" width="100%" border="0" class="FriendControlBlueBorder" style="background-color:#FFFFFF;">
     <tr>
         <td align="center">

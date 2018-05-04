@@ -1,5 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="AllTweetsForAUser.ascx.cs"
-    Inherits="Controls_AllTweetsForAUser" %>
+﻿<%@ control language="C#" autoeventwireup="true" inherits="Controls_AllTweetsForAUser, App_Web_d3ryrz8p" %>
 <table cellpadding="0" cellspacing="1" border="0" width="100%">
     <tr>
         <td colspan="3" align="left">

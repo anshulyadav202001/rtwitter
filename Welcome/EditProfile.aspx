@@ -1,5 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true"
-    CodeFile="EditProfile.aspx.cs" Inherits="Welcome_EditProfile" Title="Untitled Page" %>
+﻿<%@ page language="C#" masterpagefile="~/MasterPage.master" autoeventwireup="true" inherits="Welcome_EditProfile, App_Web_efqfkah7" title="Untitled Page" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <table cellpadding="4" cellspacing="4" width="100%" align="center">

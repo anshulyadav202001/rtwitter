@@ -1,5 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="UserFollowingMe.ascx.cs"
-    Inherits="Controls_UserFollowingMe" %>
+﻿<%@ control language="C#" autoeventwireup="true" inherits="Controls_UserFollowingMe, App_Web_d3ryrz8p" %>
 <table cellpadding="1" cellspacing="1" width="100%" border="0" class="FriendControlBlueBorder">
     <tr>
         <td align="left">

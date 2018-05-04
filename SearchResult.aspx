@@ -1,5 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true"
-    CodeFile="SearchResult.aspx.cs" Inherits="SearchResult" Title="R-Twitter Search Profile" %>
+﻿<%@ page language="C#" masterpagefile="~/MasterPage.master" autoeventwireup="true" inherits="SearchResult, App_Web_nr_xuk71" title="R-Twitter Search Profile" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <table cellpadding="1" cellspacing="1" width="90%" border="0" align="center">

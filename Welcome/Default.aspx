@@ -1,5 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/DefaultMasterPage.master" AutoEventWireup="true"
-    CodeFile="Default.aspx.cs" Inherits="Welcome_Default" Title="R-Twitter" %>
+﻿<%@ page language="C#" masterpagefile="~/DefaultMasterPage.master" autoeventwireup="true" inherits="Welcome_Default, App_Web_efqfkah7" title="R-Twitter" %>
 
 <%@ Register Src="~/Controls/AllTweetsForAUser.ascx" TagName="AllUserScraps" TagPrefix="Uc1" %>
 <%@ Register Src="~/Controls/UserFollowingMe.ascx" TagName="UserFollowingMe" TagPrefix="Uc2" %>
