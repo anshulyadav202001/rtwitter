@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<%@ Register Src="~/Controls/Header.ascx" TagName="Header" TagPrefix="Uc1" %>
+<%@ Register Src="~/Controls/Footer.ascx" TagName="Footer" TagPrefix="Uc2" %>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <link href="StyleSheet.css" rel="Stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table cellpadding="1" cellspacing="1" width="1024px" align="center" class="BlueBorder"
+            style="background: White;">
+            <tr>
+                <td>
+                    <Uc1:Header ID="Header" runat="server" />
+                </td>
+            </tr>
+            <tr>
+                <td style="border-bottom: solid 2px Green;">
+                    &nbsp;
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <Uc2:Footer ID="Footer" runat="server" />
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>
